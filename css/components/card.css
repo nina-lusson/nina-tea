@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px 0px;
+  background-color: #808080;
+  border-radius: 20px;
+  box-shadow: 0px 5px 5px #606060;
+}
+.card img {
+  width: 130px;
+  border-radius: 50%;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  color:  white;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  flex-basis: 250px;
+  flex-grow: 1;
+  margin: 10px;
+}
